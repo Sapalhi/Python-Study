@@ -22,6 +22,8 @@ as they are introduced in the course.
 | [LAB-02] | Lab | Build an Apply Discount Function | Python Basics | Functions, Variables and Numbers | Completed | - |
 | [OFC-05] | Workshop | Build a Caesar Cipher | Python Basics | Functions, Strings and Conditionals | Completed | - |
 | [LAB-03] | Lab | Build an RPG Character | Python Basics | Functions, String, **'print()'** | Completed | - |
+| [OFC-06] | Workshop | Build a Pin Extractor | Loops and Sequences | Functions, Conditionals and Loops | Completed | - |
+| [LAB-04] | Lab | Build a Number Pattern Generator | Loops and Sequences | FFunctions, Conditionals and Loops | Completed | - |
 
 ## Learning Notes
 
@@ -55,3 +57,5 @@ Larger projects developed throughout the certification program.
 [LAB-02]: ./Labs/LAB-02.py
 [OFC-05]: ./Workshops/OFC-05.py
 [LAB-03]: ./Labs/LAB-03.py
+[OFC-06]: ./Workshops/OFC-06.py
+[LAB-04]: ./Labs/LAB-04.py
