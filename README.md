@@ -18,20 +18,32 @@ as they are introduced in the course.
 | [OFC-02] | Workshop | Build an Employee Profile Generator | Python Basics | Strings | Completed | - |
 | [OFC-03] | Workshop | Build a Bill Splitter | Python Basics | Strings and Mathematical Operations | Completed | [💡](#ofc-03---build-a-bill-splitter) |
 | [OFC-04] | Workshop | Build a Movie Ticket Booking Calculator |  Python Basics | Booleans and Conditionals | Completed | - |
-| [LAB-01] | Lab | Build a Travel Weather Planner | Python Basics | Conditional Statements | Completed | [💡](#lab-01----build-a-travel-weather-planner) |
+| [LAB-01] | Lab | Build a Travel Weather Planner | Python Basics | Conditional Statements | Completed | [💡](#lab-01---build-a-travel-weather-planner) |
 | [LAB-02] | Lab | Build an Apply Discount Function | Python Basics | Functions, Variables and Numbers | Completed | - |
 | [OFC-05] | Workshop | Build a Caesar Cipher | Python Basics | Functions, Strings and Conditionals | Completed | - |
 | [LAB-03] | Lab | Build an RPG Character | Python Basics | Functions, String, **'print()'** | Completed | - |
 | [OFC-06] | Workshop | Build a Pin Extractor | Loops and Sequences | Functions, Conditionals and Loops | Completed | - |
-| [LAB-04] | Lab | Build a Number Pattern Generator | Loops and Sequences | FFunctions, Conditionals and Loops | Completed | - |
+| [LAB-04] | Lab | Build a Number Pattern Generator | Loops and Sequences | Functions, Conditionals and Loops | Completed | - |
+| [OFC-07] | Workshop | Build a Medical Data Validator | Dictionaries and Sets | Tuples, Dictionaries and Lists | Completed | - |
+| [PROJ-01] | Certification Project | Build a User Configuration Manager | - | Functions, Tuples, Dictionaries and Lists | Completed | [💡](#proj-01---build-a-user-configuration-manager) |
 
 ## Learning Notes
 
 ### OFC-03 - Build a Bill Splitter
 Slicing sequences use the concept of intervals, where the bracket [ means “in” and the parenthesis ) means “out”; therefore, [0:4] should be interpreted as [0:4), where the elements at indices 0, 1, 2, and 3 are included, and 4 is excluded.
 
-### LAB-01 -  Build a Travel Weather Planner
+### LAB-01 - Build a Travel Weather Planner
 You can use the built-in bool() function to check whether a value is truthy or falsy. This way is easier to implement in conditional statements.
+
+### PROJ-01 - Build a User Configuration Manager
+The tuple type is immutable once it is defined — we already know that. But “immutable” can make it sound like we cannot do anything with it anymore. That is not completely true.
+A tuple can be overwritten, as shown in line 3, and indexed, as shown in line 5. We can also use its elements in a dictionary. In this case, instead of keeping the tuple as one item, we use its contents as separate keys and values.
+And, once again, slicing appears in line 41: 
+```python
+result += f"\n{key[0].upper() + key[1:]}: {value}"
+```
+key[0] gets the first letter of the word, .upper() changes it to uppercase, and key[1:] gets the rest of the word.
+Together, they create the same word with a capital first letter. A small detail, but a good reminder of how useful indexing and slicing can be.
 
 ## Repository Structure
 
@@ -59,3 +71,5 @@ Larger projects developed throughout the certification program.
 [LAB-03]: ./Labs/LAB-03.py
 [OFC-06]: ./Workshops/OFC-06.py
 [LAB-04]: ./Labs/LAB-04.py
+[OFC-07]: ./Workshops/OFC-07.py
+[PROJ-01]: ./CertificationProjects/PROJ-01.py
